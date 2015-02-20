@@ -1,0 +1,29 @@
+﻿@model AsyncMVC.Models.FullViewModel
+
+@{
+    ViewBag.Title = "Full";
+}
+
+<h2>Authors</h2>
+<ul>
+    @foreach (AsyncMVC.Models.Author author in Model.Authors)
+    {
+        <li>
+            <span>@author.FirstName</span>
+            <span>@author.LastName</span>
+        </li>
+    }
+</ul>
+
+<h2>Titles</h2>
+<ul>
+    @foreach (AsyncMVC.Models.Title title in Model.Titles)
+    {
+        <li>
+            <span>@title.Name</span>
+            <span>$@title.Price</span>
+        </li>
+    }
+</ul>
+
+Elapsed time: @ViewBag.ElapsedTime

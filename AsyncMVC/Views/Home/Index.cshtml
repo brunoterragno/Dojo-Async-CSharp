@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Authors</h2>
+<ul>
+    @foreach (AsyncMVC.Models.Author author in Model)
+    {
+        <li>
+            <span>@author.FirstName</span>
+            <span>@author.LastName</span>
+        </li>
+    }
+</ul>
+
+Elapsed time: @ViewBag.ElapsedTime

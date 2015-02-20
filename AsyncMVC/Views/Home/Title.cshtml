@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Title";
+}
+
+<h2>Titles</h2>
+<ul>
+    @foreach (AsyncMVC.Models.Title title in Model)
+    {
+        <li>
+            <span>@title.Name</span>
+            <span>$@title.Price</span>
+        </li>        
+    }
+</ul>
+
+Elapsed time: @ViewBag.ElapsedTime

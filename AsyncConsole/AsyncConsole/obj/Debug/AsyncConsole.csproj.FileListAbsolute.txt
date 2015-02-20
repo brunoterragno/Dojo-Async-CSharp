@@ -1,0 +1,6 @@
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\bin\Debug\AsyncConsole.exe.config
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\bin\Debug\AsyncConsole.exe
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\bin\Debug\AsyncConsole.pdb
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\obj\Debug\AsyncConsole.csprojResolveAssemblyReference.cache
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\obj\Debug\AsyncConsole.exe
+C:\Users\Bruno\Documents\Projects\Async\AsyncConsole\AsyncConsole\obj\Debug\AsyncConsole.pdb
